@@ -2,6 +2,7 @@ package Interface.FoodShortage;
 
 public class Rebel implements Buyer,Person{
     public static final int DEFAULT_START_FOOD=0;
+
     private String name;
     private int age;
     private String group;

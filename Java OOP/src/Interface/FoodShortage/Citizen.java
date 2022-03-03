@@ -1,5 +1,5 @@
 package Interface.FoodShortage;
-public class Citizen implements Buyer,Person  {
+public class Citizen implements Buyer,Person,Identifiable  {
     public static final int DEFAULT_START_FOOD=0;
     private String name;
     private int age;
@@ -41,5 +41,10 @@ public class Citizen implements Buyer,Person  {
 
     public String getBirthDate() {
         return birthDate;
+    }
+
+    @Override
+    public String getld() {
+        return this.id;
     }
 }
