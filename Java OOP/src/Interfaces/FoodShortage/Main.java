@@ -1,5 +1,6 @@
 package Interface.FoodShortage;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -77,4 +78,7 @@ public class Main {
         }
         return foods;
     }
+=======
+public class Main {
+>>>>>>> f2d244ef6c9673509418a0103555d2e1613704ef
 }
